@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../images/favicon.ico" />
+
+    <title>Faina Tech - Farmer Registration</title>
+
+    <!-- Vendors Style-->
+    <link rel="stylesheet" href="css/vendors_css.css" />
+
+    <!-- Style-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skin_color.css" />
+  </head>
+
+  <body
+    class="hold-transition theme-primary bg-img"
+    style="background-image: url(../images/auth-bg/bg-2.jpg)"
+    data-overlay="5"
+  >
+    <div class="container h-p100">
+      <div class="row align-items-center justify-content-md-center h-p100">
+        <div class="col-12">
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-5 col-md-5 col-12">
+              <div class="bg-white rounded shadow-lg">
+                <div class="content-top-agile p-20 pb-0">
+                  <h2 class="text-primary">Get started with Faina Tech</h2>
+                  <p class="mb-0">Register a new Farmer</p>
+                </div>
+                <div class="p-40">
+                  <form  method="post">
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          class="form-control pl-15 bg-transparent"
+                          placeholder="Full Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          name="description"
+                          id="description"
+                          class="form-control pl-15 bg-transparent"
+                          placeholder="Description of the Farmer"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="file"
+                          name="photo"
+                          class="form-control pl-15 bg-transparent"
+                          placeholder="Description of the Farmer"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          id="phone"
+                          name="phone"
+                          class="form-control pl-15 bg-transparent"
+                          placeholder="Phone Number"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          name="national_id"
+                          id="national_id"
+                          class="form-control pl-15 bg-transparent"
+                          placeholder="Nationa ID"
+                        />
+                      </div>
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-user"></i
+                          ></span>
+                        </div>
+                       <select name="payment_details"  class="form-control pl-15 bg-transparent"
+                          placeholder="Nationa ID" id="select_element">
+                          <option value="Active">Active</option>
+                          <option value="Suspend">Suspend</option>
+                          <option value="Late">Late</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text bg-transparent"
+                            ><i class="ti-email"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          class="form-control pl-15 bg-transparent"
+                          placeholder="Email"
+                        />
+                      </div>
+                    </div>
+  
+                    <div class="row">
+      
+                      <!-- /.col -->
+                      <div class="col-12 text-center">
+                        <button
+                          type="submit"
+                          class="btn btn-info margin-top-10"
+                        >
+                          SIGN IN
+                        </button>
+                      </div>
+                      <!-- /.col -->
+                    </div>
+                  </form>
+                
+                </div>
+              </div>
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vendor JS -->
+    <script src="js/vendors.min.js"></script>
+    <script src="js/formData.js"></script>
+    <script src="../assets/icons/feather-icons/feather.min.js"></script>
+  </body>
+</html>
